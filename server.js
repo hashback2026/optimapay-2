@@ -96,7 +96,7 @@ app.post("/bulk-stk", async (req, res) => {
 
     results.push(result);
 
-    await delay(2000);
+    await delay(3500);
   }
 
   res.json({
